@@ -1,0 +1,16 @@
+p{
+    color: red;
+}
+#special-tag {
+background-color: blue;
+}
+.group{
+    border: solid 2px;
+    border-color: green;
+}
+
+top-parent div{
+    border:  dotted orange 4px;
+    width: 10em;
+    height: 50px;
+}
