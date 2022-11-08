@@ -6,14 +6,18 @@ body{
     align-items: center;
     padding-top: 0.5rem;
     padding-left: 2.4em;
+    display: flex;
 }
 
 #logo img{
     width: 25px;
     height: 25px;
+    display: flex;
+
 }
 
 #logo figcaption{
+    display: flex;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -24,24 +28,26 @@ body{
 }
 
 nav{
-    width: 1200px;
-    margin: 0 auto;
-    height: 40px;
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 100px;
-    transition: all 300ms ease;
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    width: 1000px;
 
 }
 
 nav ul{
-    list-style: none;
     width: 100%;
+    list-style: none;
     justify-content: space-between;
-    height: 40px;
     align-items: center;
     margin: 0;
     padding: 0;
     margin-left: 10rem;
+    display: flex;
+    
 }
 
 nav ul li a{
@@ -58,6 +64,8 @@ nav ul li.active a{
     font-weight: 800;
     font-size: 16px;
     line-height: 22px;
+    display: flex;
+
 }
 
 nav ul li.button{
@@ -69,9 +77,10 @@ nav ul li.button{
 .container{
     margin-bottom: 4rem;
     width: 100%;
+    
 }
 .subcontainer{
-    margin-top: -68px;
+    margin-top: -38px;
     margin-right: -18px;
 }
 header{
@@ -79,7 +88,9 @@ header{
     margin: 0 auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    flex-direction: row
+    flex-direction: row;
+    display: flex;
+    padding: 8em 0;
 
 }
 
@@ -110,127 +121,8 @@ header span{
     line-height: 49px;
     color: #3E3F43;
 }
-#section-about{ 
-    width: 100%;
-}
-#section-about{ 
-    position: relative;
-}
-section {
-    padding: 8em 0;
-}
-.contaner{
-    width: 1100px;
-    padding: 0 2.4em;
-    max-width: 120em;
-    margin: 0 auto;
-}
-div{
-    display: block;
-}
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-@media only screen and (min-width: 50em)
-.superheading{
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-}
-.superheading .subheading {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #3e3f43;
-}
-a, p, h1, h2, h3, h4, h5, button {
-    font-family: "Nunito", sans-serif;
-}
-.superheading .line {
-    display: inline-block;
-    height: 2px;
-    width: 100%;
-    background: #000;
-}
 
 
 
-section div div {
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    
-}
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-section div div p{
-    font-size: 2.5rem;
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    color: #3e3f43;
-}
-section div h1{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #000;
-    opacity: 0.1;
-    display: inline-block;
-}
-.line{
-    display: inline-block;
-    height: 2px;
-    background: #000;
-    width: 30%;
-}
-section article div{
-    justify-content: space-around;
-    margin-top: 2rem;
-    font-weight: 0;
-    display: flex;
-}
-section article div div{
-    flex-basis: 50%;
-    display: block;
-    padding: 0 2.4em;
-}
-section article div div img{
-    bottom: 0px;
-    right: 25px;
-    width: -50%;
-}
-.articalp1{
-    font-size: 1.5rem;
-    display: block;
-}
-.articalp2{
-    font-size: 1rem;
-    display: block;
-}
-#artical-div{
-    justify-content: space-around;
-    margin-top: 2rem;
-}
+
+

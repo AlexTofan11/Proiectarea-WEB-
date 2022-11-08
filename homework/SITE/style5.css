@@ -1,0 +1,60 @@
+.footer {
+    background: linear-gradient(#f2f2f2, #f7f7f766, #fff);
+}
+.footer .subscribe {
+    padding-bottom: 4rem;
+}
+.footer .subscribe .content p:nth-child(1) {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.footer .subscribe p {
+    font-size: 1.4rem;
+}
+.footer .subscribe .email {
+    margin-bottom: 1rem;
+}
+.footer .subscribe .email #sub {
+    padding: 1rem 28rem 1.1rem 1rem;
+}
+.footer .subscribe .email #sub {
+    border: 1px solid #daa520;
+}
+.footer .subscribe .email .sub-btn {
+    padding: 1.1rem 2rem 1rem 2rem;
+}
+.footer .subscribe .email .sub-btn {
+    background: #daa520;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: opacity 300ms ease;
+}
+.footer .wrapper {
+    display: -ms-grid;
+    display: grid;
+    margin: 0 auto;
+    gap: 2rem;
+    -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    border-top: 1px solid #8d8d8d;
+    padding-top: 2rem;
+}
+.footer .wrapper .list:nth-child(1) {
+    transform: translateY(-10%);
+}
+.footer .wrapper .list {
+    margin-bottom: 2rem;
+}
+ul, li {
+    list-style: none;
+}
+.footer .year {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #8d8d8d;
+    font-weight: bold;
+    padding: 2rem 0;
+}
